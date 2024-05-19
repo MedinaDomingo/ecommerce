@@ -17,4 +17,6 @@ export class AppComponent implements OnInit{
     initFlowbite();
   }
   title = 'ecommerce';
+
+  
 }

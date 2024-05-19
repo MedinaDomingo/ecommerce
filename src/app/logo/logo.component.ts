@@ -9,5 +9,5 @@ import { RouterLink } from '@angular/router';
   styleUrl: './logo.component.css'
 })
 export class LogoComponent {
-
+  companyName = 'Cantona';
 }
