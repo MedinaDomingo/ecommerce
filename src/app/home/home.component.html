@@ -1,10 +1,15 @@
-
 <div class="relative overflow-hidden">
   <div class="relative">
-    <div id="banner-scroll-container" class="relative w-full flex gap-6 snap-x snap-mandatory overflow-x-auto scrollbar-hide bg-gray-300">
+    <div
+      id="banner-scroll-container"
+      class="relative w-full flex gap-6 snap-x snap-mandatory overflow-x-auto scrollbar-hide bg-gray-300"
+    >
       <div class="snap-center shrink-0" *ngFor="let liga of ligas">
-        <a href="" class="shrink-0 w-40  flex items-center justify-center rounded-lg shadow-xl text-black text-md font-medium text-gray-900 hover:text-red-600">
-          {{liga.nombre}}
+        <a
+          href=""
+          class="shrink-0 w-40 flex items-center justify-center rounded-lg shadow-xl text-black text-md font-medium text-gray-900 hover:text-red-600"
+        >
+          {{ liga.nombre }}
         </a>
       </div>
     </div>
@@ -12,20 +17,68 @@
 </div>
 
 
-<div class="bg-gray-50 flex items-center">
-<section class="bg-cover bg-center py-32 w-full" style="background-image: url('https://brand.assets.adidas.com/image/upload/football_ss24_ar_river_mh_small_plp_t_64bcbe22ac.jpg');">
-  <div class="container ml-2 mx-auto text-left text-white">
-    <div class="flex items-center">
-      <div class="w-1/2">
-        <a href="">
-          <h1 class="text-5xl font-bold	 mb-6">RIVER PLATE - TERCERA CAMISETA 2024
-          </h1>
-          
-        </a>
-      </div>
-      </div>
-    </div>
-</section>
+<app-carousel></app-carousel>
+
+<div class="px-6 pt-6 ">
+  <h1 class="text-2xl font-bold mb-6  ">
+  <a class="hover:underline hover:bg-gray-300 hover:text-red-700">LOS MÁS VENDIDOS</a>
+</h1>
 </div>
 
+
 <app-product-list></app-product-list>
+
+<div class="bg-gray-50 flex items-center">
+  <div
+    class="bg-cover bg-center py-32 w-full h-full"
+    style="
+      background-image: url('https://cdn.media.amplience.net/i/ArsenalDirect/Home_Kit_2024_Homepage_Hero_Banner_2000x1150?$webp-image__100-width--desktop$');
+    "
+  >
+    <div class="container  mx-auto text-left text-white">
+      <div class="flex items-center">
+        <div class="w-full align-middle">
+          <a href="">
+            <h1 class="text-2xl font-bold text-center">ARSENAL 2024-25</h1>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray-50 sm:flex items-center block">
+  <div
+    class="bg-cover bg-center py-32 sm:w-1/2 h-full"
+    style="
+      background-image: url('https://images.unsplash.com/photo-1551854321-1432edd90a5c?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1551854386-b42759a60dd0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    "
+  >
+    <div class="container ml-2 mx-auto text-left text-white">
+      <div class="flex items-center">
+        <div class="m-auto">
+          <a href="">
+            <h1 class="text-2xl font-bold text-center mb-6">ESPAÑA</h1>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section
+    class="bg-cover bg-center py-32 sm:w-1/2 h-full"
+    style="
+      background-image: url('https://assets.adidas.com/images/w_600,f_auto,q_auto/f3826bf180b04492a6e88dea3b250f67_9366/Camiseta_Alternativa_Argentina_24_Mujer_Azul_IP8398_21_model.jpg');
+    "
+  >
+    <div class="container mx-auto text-left text-white">
+      <div class="flex items-center">
+        <div class="m-auto">
+          <a href="">
+            <h1 class="text-2xl font-bold text-center mb-6">ARGENTINA
+            </h1>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -19,7 +19,7 @@ export class ProductListComponent {
     {
       "liga": "Premier League",
       "club": "Manchester United",
-      "price": "$21.15",
+      "price": "$12.15",
       "image": "https://cf.projerseyshop.cc/upload/ttmall/img/20230627/6fe5752631cdcfe2458f18d7b56e2d75.png=z-250,250_f-webp"
     },
     {
@@ -43,19 +43,19 @@ export class ProductListComponent {
     {
       "liga": "MLS",
       "club": "Inter Miami",
-      "price": "$21.15",
+      "price": "$15.15",
       "image": "https://cf.projerseyshop.cc/upload/ttmall/img/20240123/f6d4571e5af159f9fbbbd4ca4428304c.JPG=z-621,621_f-webp"
     },
     {
-      "liga": "Liga Argentina",
+      "liga": "LPF",
       "club": "River Plate",
-      "price": "$912.00",
+      "price": "$14.00",
       "image": "https://cf.projerseyshop.cc/upload/ttmall/img/20231215/2923e017ade530ffd5ba883372fa981a.png=z-250,250_f-webp"
     },
     {
       "liga": "La Liga",
       "club": "Real Madrid",
-      "price": "$18.40",
+      "price": "$13.40",
       "image": "https://cf.projerseyshop.cc/upload/ttmall/img/20240516/0f254205fd9d68019e7790a114f9ce8a.png=z-621,621_f-webp"
     }
   ];
